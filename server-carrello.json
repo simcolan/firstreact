@@ -1,0 +1,18 @@
+[
+    {
+        "id": 2,
+        "titolo": "COMPUTER",
+        "descrizione": "PC Windows da 24 pollici",
+        "prezzo": 699,
+        "immagine": "/images/pc.jpg",
+        "quantita": 5
+    },
+    {
+        "id": 3,
+        "titolo": "TV",
+        "descrizione": "Bellissima tv da 43 pollici",
+        "prezzo": 799,
+        "immagine": "/images/tv.jpg",
+        "quantita": 1
+    }
+]

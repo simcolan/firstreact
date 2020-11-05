@@ -1,0 +1,18 @@
+/* *  {
+    margin: 10px;
+    padding: 10px;
+} */
+
+#Card {
+    background-color: grey;
+    font-size: 20px;
+    width: 24rem;
+}
+
+#CardImg {
+    margin: auto;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+

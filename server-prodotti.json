@@ -1,0 +1,23 @@
+[
+    {
+        "id": 2,
+        "titolo": "COMPUTER",
+        "descrizione": "PC Windows da 24 pollici",
+        "prezzo": 699,
+        "immagine": "/images/pc.jpg"
+    },
+    {
+        "id": 3,
+        "titolo": "TV",
+        "descrizione": "Bellissima tv da 43 pollici",
+        "prezzo": 799,
+        "immagine": "/images/tv.jpg"
+    },
+    {
+        "id": 4,
+        "titolo": "SMARTPHONE",
+        "descrizione": "Nuovo Smartphone con ottime funzionalità",
+        "prezzo": 999,
+        "immagine": "/images/smartphone.jpg"
+    }
+]

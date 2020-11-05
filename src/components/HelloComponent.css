@@ -1,0 +1,16 @@
+/* .containerHelloComponent {
+    display: flex;
+} */
+
+#btnElimina {
+    background-color: red;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+}
+#btnModifica {
+    background-color: yellow;
+    height: 50px;
+    border-radius: 10px;
+    color: black;
+}
