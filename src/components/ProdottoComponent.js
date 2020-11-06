@@ -12,8 +12,8 @@ export const ProdottoComponent = ({ prodotto, eliminaProdotto, eliminaProdottoCa
                     <div className={style.layer}></div>
                     <div className={style.content}>
                         <div className={style.title}>
-                            <h5><strong>{prodotto.titolo}</strong></h5>
-                            <h6><strong>ID Prodotto: {prodotto.id}</strong></h6>
+                            <h3><strong>{prodotto.titolo}</strong></h3>
+                            <h5><strong>ID Prodotto: {prodotto.id}</strong></h5>
                         </div>
                         <div className={style.image}>
                             <img className={style.img} src={prodotto.immagine} />

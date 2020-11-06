@@ -42,7 +42,10 @@ const Prodottipage = () => {
     }
 
     return <>
-        <Row style={{ backgroundImage: "url(" + "https://thumbs.dreamstime.com/b/glitter-textured-green-black-shaded-background-wallpaper-glitter-textured-green-black-shaded-background-wallpaper-book-149883669.jpg" + ")"}}>
+        <Row style={{ backgroundImage: "url(" + "https://images.wallpaperscraft.com/image/cracks_glow_green_131550_1920x1080.jpg" + ")",
+         backgroundRepeat: "no-repeat",
+         backgroundAttachment:"fixed",
+         backgroundSize:"cover"}}>
             {listaProdotti ?
                 listaProdotti.map(prodotto =>
                     <Col xs={12} lg={6}>
