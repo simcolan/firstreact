@@ -1,0 +1,20 @@
+.colorNavbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:  #24ae4d;
+    color: black;
+}
+.imgNavbar {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+.linkNavbar {
+    color: black;
+    text-decoration: none !important;
+}
+
+.linkNavbar:hover {
+    color: red;
+    text-decoration: none !important;
+}

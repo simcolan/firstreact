@@ -9,6 +9,7 @@ import { Loginpage } from "./pages/Loginpage";
 import { UtenteProvider } from "./providers/utente.provider";
 import { Carrellopage } from "./pages/Carrellopage";
 import { CarrelloProvider } from "./providers/carrello.provider";
+import { AggiungiProdottopage } from "./pages/AggiungiProdottopage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route exact path={"/prodotti"} component={Prodottipage} />
             <Route exact path={"/login"} component={Loginpage} />
             <Route exact path={"/carrello"} component={Carrellopage} />
+            <Route exact path={"/prodotti/inserimento"} component={AggiungiProdottopage} />
           </CarrelloProvider>
         </UtenteProvider>
       </Router>

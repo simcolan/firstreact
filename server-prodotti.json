@@ -14,10 +14,10 @@
         "immagine": "/images/tv.jpg"
     },
     {
-        "id": 4,
-        "titolo": "SMARTPHONE",
-        "descrizione": "Nuovo Smartphone con ottime funzionalità",
-        "prezzo": 999,
-        "immagine": "/images/smartphone.jpg"
+        "id": 517,
+        "titolo": "frigorifero",
+        "descrizione": "frigorifero ultima generazione classe a++",
+        "prezzo": "849",
+        "immagine": "https://images-na.ssl-images-amazon.com/images/I/61DEWBJhkgL._AC_SY500_.jpg"
     }
 ]

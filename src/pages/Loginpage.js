@@ -8,6 +8,7 @@ import { useUtente } from '../contexts/utente.context';
 import { useCarrello } from '../contexts/carrello.context';
 import { carrelloAction } from '../actions/carrello.action';
 import { carrelloService } from '../services/carrello.service';
+import style from "../components/UtenteComponent.module.css";
 
 const Loginpage = () => {
 
@@ -42,11 +43,13 @@ const Loginpage = () => {
     }
 
     return (
+        <div className={style.body}>
     <UtenteComponent 
     loginUtente={loginUtente}
     state = {state}
     onChange = {onChange}>
     </UtenteComponent>
+    </div>
     )
 }
 

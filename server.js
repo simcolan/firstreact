@@ -53,10 +53,11 @@ app.post('/prodotti', (req, res) => {
     fs.readFile(PRODUCT_DATA_FILE, (err,data) => {
         const listaProdotti = JSON.parse(data);
         const nuovoProdotto = {
-            id: req.body.id,
+            id: Math.floor(Math.random()*1000),
             titolo: req.body.titolo,
             descrizione: req.body.descrizione,
-            prezzo: req.body.prezzo
+            prezzo: req.body.prezzo,
+            immagine: req.body.immagine
         };
         listaProdotti.push(nuovoProdotto);
         fs.writeFile(

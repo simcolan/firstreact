@@ -4,9 +4,9 @@ import { NavbarComponent } from "../components/Navbar";
 const LayoutPageHOC = (Component) => {
     const LayoutPage = () => {
         return (
-            <div style = {{backgroundColor: "black"}}>
+            <div style={{height: "100%"}} >
                 <NavbarComponent />
-                <div>
+                <div style={{height: "100%"}}>
                     <Component />
                 </div>
             </div>

@@ -1,0 +1,87 @@
+.body{
+background-image: url('https://c4.wallpaperflare.com/wallpaper/314/840/21/16k-material-dark-green-wallpaper-preview.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container {
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: 100px;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon{
+    display: flex;
+    position: relative;
+left: 140px;
+top: -60px;
+}
+
+.social_icon span{
+    display: flex;
+font-size: 50px;
+margin-left: 10px;
+color: white;
+}
+
+.social_icon span:hover{
+color: #24ae4d;
+cursor: pointer;
+}
+
+.h100 {
+    display: flex;
+    justify-content: center;
+}
+
+.card_header h3{
+margin-top: 30px;
+margin-left: 30px; 
+height: 0;   
+color:  #24ae4d;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input_group_prepend span{
+width: 50px;
+background-color: #24ae4d;
+color: black;
+border-radius: 10px 0 0 10px !important;
+height: 100%;
+}
+
+.input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+}
+
+.login_btn{
+color: black;
+background-color: #24ae4d;
+width: 100px;
+float: right;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+justify-content: center;
+margin-top: 30px;
+}
+
+.links a{
+margin-left: 4px;
+}
